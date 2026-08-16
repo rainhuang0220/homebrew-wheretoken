@@ -1,7 +1,6 @@
 class Wheretoken < Formula
   desc "Local coding-agent token usage as a character table"
   homepage "https://github.com/rainhuang0220/whereToken"
-  version "0.1.1"
   license "MIT"
 
   on_macos do
