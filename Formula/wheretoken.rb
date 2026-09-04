@@ -1,28 +1,28 @@
 class Wheretoken < Formula
   desc "Local coding-agent token usage as a character table"
   homepage "https://github.com/rainhuang0220/whereToken"
-  version "0.6.1"
+  version "0.6.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.6.1/wheretoken_darwin_arm64.tar.gz"
-      sha256 "3ef085a8e08a0f04443ac06d9421584445ba8447fcb44d3406a9705b727d7a5c"
+      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.6.2/wheretoken_darwin_arm64.tar.gz"
+      sha256 "5618e6804639b6041a9ffb41c96bb9fd4f1fb1b0ba4bf93716f8d8ae7d08219a"
     end
     on_intel do
-      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.6.1/wheretoken_darwin_amd64.tar.gz"
-      sha256 "442af58e5ac26cfc44c325f6efea3e783533dda32af853efba77161e3db8578d"
+      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.6.2/wheretoken_darwin_amd64.tar.gz"
+      sha256 "aa440af5d82dcb0a3d1595c483c81687844f84ad78dd71fd274b3fa1ccf95023"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.6.1/wheretoken_linux_arm64.tar.gz"
-      sha256 "4f9d2b0db81caa233a10ef6bd13b4b3816da92c365f8c797a26286d17d2b1c2f"
+      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.6.2/wheretoken_linux_arm64.tar.gz"
+      sha256 "5183094dee3ac1d76b6d95bf4c448c83251e116681cdea48632dc19de507917f"
     end
     on_intel do
-      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.6.1/wheretoken_linux_amd64.tar.gz"
-      sha256 "2da9e4199dd4c22e620806756bbc32b7b284b1acff6fc7b06c30abed6ef882b2"
+      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.6.2/wheretoken_linux_amd64.tar.gz"
+      sha256 "e8604652cb0ac6f008f890633248b74be526726d9a087dd5fe35611c8f21cee1"
     end
   end
 
