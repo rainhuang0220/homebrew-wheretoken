@@ -5,23 +5,23 @@ class Wheretoken < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.7.19/wheretoken_darwin_arm64.tar.gz"
-      sha256 "a7b019c98fd5b46bdcb6d4adf77580df63d6ccedff28672c59f6181c0a680676"
+      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.7.20/wheretoken_darwin_arm64.tar.gz"
+      sha256 "8f6d00b22bebb4a8cce010462031dad5d485da4dd63b1d39e650992f68107ed9"
     end
     on_intel do
-      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.7.19/wheretoken_darwin_amd64.tar.gz"
-      sha256 "e71aa0bd4f5a75f2fab374720a4e32d17fdc782df1a2fc2fe10255bf848d81ef"
+      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.7.20/wheretoken_darwin_amd64.tar.gz"
+      sha256 "83750857bb48c80f0123cac60dfd7f9508938ede9165c4711767761d41f14d0d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.7.19/wheretoken_linux_arm64.tar.gz"
-      sha256 "2bf12e506948593491a1a5cf86d26696ff8d61b56ca6897cee07b6d707841a14"
+      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.7.20/wheretoken_linux_arm64.tar.gz"
+      sha256 "d083d29a53dad2e4a96e4631b8a1c75d6fc857a49194cceec1a8d276904974c4"
     end
     on_intel do
-      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.7.19/wheretoken_linux_amd64.tar.gz"
-      sha256 "f1a759dd620a396886cc65342fa4d647e3798714d0840e2e6823f340161f2abe"
+      url "https://github.com/rainhuang0220/whereToken/releases/download/v0.7.20/wheretoken_linux_amd64.tar.gz"
+      sha256 "2f43ecfe428297c596af0f24c61959dc88afe83b61561a7efd083a52648e557a"
     end
   end
 
